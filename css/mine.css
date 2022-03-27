@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+
+}
+body
+{
+	background-color: gray;
+	font-family: Cavorting;
+    
+}  
+.main 
+{
+	width: 95%;
+	display: flex;
+	max-width: 1000px;
+	padding: 50px;
+	margin: auto;
+	background-color: white;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+	flex-wrap: wrap;
+}
+.img 
+{
+	max-height: 495px;
+	max-width: 270px;
+	width: calc(50% - 10px);
+	height: calc(95vw / 2 / 9 *16);
+	margin: 5px;
+	background-color: skyblue;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease;
+}
+h1 
+{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: seagreen;
+}
+.img1{
+	background-image: url(../img/1.jpg) ;
+
+}
+.img2{
+	background-image: url(../img/2.jpg) ;
+
+}
+.img3{
+	background-image: url(../img/3.jpg) ;
+
+}
+.img4{
+	background-image: url(../img/4.jpg) ;
+
+}
+.img5{
+	background-image: url(../img/5.png) ;
+
+}
+.img6{
+	background-image: url(../img/6.jpg) ;
+
+}
+.img7{
+	background-image: url(../img/7.jpg) ;
+
+}
+.img8{
+	background-image: url(../img/8.png) ;
+}
+.img9{
+	background-image: url(../img/9.jpg) ;
+
+}
+.img10{
+	background-image: url(../img/10.jpg) ;
+
+}
+.img11{
+	background-image: url(../img/11.jpeg) ;
+
+}
+.img12{
+	background-image: url(../img/12.jpg) ;
+  }
+@font-face{
+	font-family: Pacifico;
+	src: url(../fonts/Pacifico-Regular.ttf);
+
+}
+.img:hover 
+{
+	transform: rotate(3deg) scale(1.07);
+	box-shadow:0 0 20px 1px rgba(0, 0, 0, 0.4);
+	
+}
